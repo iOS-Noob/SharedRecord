@@ -7,8 +7,8 @@
 2. `git add .` : 将文件添加到缓存区
 3. `git commit -m"add project"` : 提交文件
 4. `git remote add origin xxxx` : 给本地仓库指定远程仓库地址， origin 为远程仓库的名字，xxxx 为远程仓库的地址
-5. `git pull --allow-unrelated-histories` : 拉取远程仓库分支的代码，参数 `--allow-unrelated-histories` 的含义[Stackoverflow](http://stackoverflow.com/questions/37937984/git-refusing-to-merge-unrelated-histories)
-6. `git branch --set-upstream-to=origin/master master` : 将远程的master分支设置为本地master分支的上行，如果不添加该参数会报错 : `fatal: refusing to merge unrelated histories`
+5. `git pull --allow-unrelated-histories` : 拉取远程仓库分支的代码，参数 `--allow-unrelated-histories` 的含义[Stackoverflow](http://stackoverflow.com/questions/37937984/git-refusing-to-merge-unrelated-histories)，如果不添加该参数会报错 : `fatal: refusing to merge unrelated histories`
+6. `git branch --set-upstream-to=origin/master master` : 将远程的master分支设置为本地master分支的上行
 7. `git push` : 将本地代码提交到远程仓库
 
 #### 创建的远程仓库无文件
