@@ -26,3 +26,4 @@
 * git checkout -b xxx : 新建并切换分支
 * git checkout : 切换分支
 * git merge : 合并分支
+* git status : 显示仓库文件的状态
